@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+
+        <item
+            android:id="@+id/drawer_home"
+            android:onClick="backtoHome"
+            android:icon="@drawable/ic_baseline_home_24"
+            android:title="Home" />
+        <item
+            android:id="@+id/drawer_editprofile"
+            android:onClick="gotoProfile"
+            android:icon="@drawable/ic_profile"
+            android:title="Profile" />
+        <item
+            android:id="@+id/drawer_message"
+            android:onClick="gotoMessages"
+            android:icon="@drawable/ic_message"
+            android:title="Messages" />
+        <item
+            android:id="@+id/drawer_notification"
+            android:onClick="gotoNotification"
+            android:icon="@drawable/ic_notification"
+            android:title="Notifications" />
+        <item
+            android:id="@+id/drawer_Location"
+            android:onClick="editLocation"
+            android:icon="@drawable/ic_location"
+            android:title="Location" />
+        <!--        <item-->
+        <!--            android:id="@+id/drawer_Usersnearme"-->
+        <!--            android:icon="@drawable/ic_usernearme"-->
+        <!--            android:title="Users near me" />-->
+        <item
+            android:id="@+id/drawer_guide"
+            android:onClick="gotoGuide"
+            android:icon="@drawable/ic_guide"
+            android:title="Guide" />
+        <item
+            android:id="@+id/drawer_logout"
+            android:icon="@drawable/ic_logout"
+            android:onClick="backToLogin"
+            android:title="Log Out" />
+
+    </group>
+
+    <item android:title="communicate">
+
+        <menu>
+
+            <item
+                android:id="@+id/drawer_volunteer"
+                android:icon="@drawable/ic_volunteer"
+                android:title="Volunteer" />
+            <item
+                android:id="@+id/drawer_feedback"
+                android:icon="@drawable/ic_feedback"
+                android:title="Feedback" />
+            <item
+                android:id="@+id/drawer_share"
+                android:icon="@drawable/ic_share"
+                android:title="Share" />
+            <item
+                android:id="@+id/drawer_termsandconditions"
+                android:icon="@drawable/ic_termsandconditions"
+                android:title="Terms and Conditions" />
+        </menu>
+
+    </item>
+
+</menu>

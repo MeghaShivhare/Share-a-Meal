@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:id="@id/navigation_home"
+        android:title="Home"
+        android:icon="@drawable/ic_home"/>
+    <item android:id="@id/navigation_free"
+        android:title="Free Food"
+        android:icon="@drawable/ic_baseline_free_24"/>
+    <item android:id="@id/navigation_made"
+        android:title="Charge Food"
+        android:icon="@drawable/ic_baseline_made_24"/>
+    <item android:id="@id/navigation_forum"
+        android:title="Forum"
+        android:icon="@drawable/ic_forum"/>
+    <item android:id="@+id/navigation_myprofile"
+        android:title="My Profile"
+        android:icon="@drawable/ic_myprofile"/>
+
+</menu>

@@ -1,0 +1,303 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#D6DBDF"
+    tools:context=".ui.Made.MadeFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@color/white"
+        android:onClick="popup2"
+        android:src="@drawable/ic_create"
+        android:layout_marginBottom="10dp"
+        android:layout_marginRight="10dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+
+        android:orientation="vertical">
+
+        <com.google.android.material.appbar.AppBarLayout
+            android:id="@+id/appBarLayout"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:background="@color/white"
+            app:layout_constraintTop_toTopOf="parent">
+
+            <androidx.appcompat.widget.Toolbar
+                android:id="@+id/toolbar"
+                android:layout_width="match_parent"
+                android:layout_height="?attr/actionBarSize">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Food on Payment and Demand"
+                    android:textSize="22dp"
+                    android:textColor="@color/black"
+                    android:textStyle="bold"/>
+
+            </androidx.appcompat.widget.Toolbar>
+
+        </com.google.android.material.appbar.AppBarLayout>
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="5dp"
+                    android:orientation="horizontal">
+
+                    <androidx.constraintlayout.widget.ConstraintLayout
+                        android:layout_width="170dp"
+                        android:layout_height="350dp"
+                        android:layout_marginLeft="25dp"
+                        android:background="@drawable/constrainbg1">
+
+                        <ImageView
+                            android:id="@+id/imageView5"
+                            android:layout_width="130dp"
+                            android:layout_height="130dp"
+                            android:layout_marginTop="20dp"
+                            android:scaleType="fitXY"
+                            android:src="@drawable/img11"
+                            app:layout_constraintEnd_toEndOf="parent"
+                            app:layout_constraintStart_toStartOf="parent"
+                            app:layout_constraintTop_toTopOf="parent" />
+
+                        <TextView
+                            android:id="@+id/textView10"
+                            android:layout_width="150dp"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="10dp"
+                            android:text="Ganesh Chat Stall"
+                            android:textAlignment="center"
+                            android:textColor="@color/black"
+                            android:textSize="20sp"
+                            app:layout_constraintEnd_toEndOf="@+id/imageView5"
+                            app:layout_constraintStart_toStartOf="@+id/imageView5"
+                            app:layout_constraintTop_toBottomOf="@+id/imageView5" />
+
+                        <TextView
+                            android:id="@+id/textView11"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="10dp"
+                            android:textColor="@color/black"
+                            android:text="🙎‍♂ Provider"
+                            android:textSize="14sp"
+                            android:layout_marginLeft="10dp"
+                            app:layout_constraintStart_toStartOf="@+id/textView10"
+                            app:layout_constraintTop_toBottomOf="@+id/textView10" />
+
+                        <TextView
+                            android:id="@+id/textView12"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="5dp"                            android:textColor="@color/black"
+                            android:text="📍 Location"
+                            android:textSize="14sp"
+                            app:layout_constraintStart_toStartOf="@+id/textView11"
+                            app:layout_constraintTop_toBottomOf="@+id/textView11" />
+
+                        <TextView
+                            android:id="@+id/textView13"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:textColor="@color/black"
+                            android:layout_marginTop="5dp"
+                            android:text="🛒 Price"
+                            android:textSize="14sp"
+                            app:layout_constraintStart_toStartOf="@+id/textView12"
+                            app:layout_constraintTop_toBottomOf="@+id/textView12" />
+
+
+                    </androidx.constraintlayout.widget.ConstraintLayout>
+
+                    <androidx.constraintlayout.widget.ConstraintLayout
+                        android:layout_width="170dp"
+                        android:layout_height="350dp"
+                        android:layout_marginLeft="5dp"
+                        android:background="@drawable/constrainbg1">
+
+
+                        <ImageView
+                            android:id="@+id/im1"
+                            android:layout_width="130dp"
+                            android:layout_height="130dp"
+                            android:scaleType="fitXY"
+                            android:src="@drawable/img12"
+                            android:layout_marginTop="20dp"
+                            app:layout_constraintEnd_toEndOf="parent"
+                            app:layout_constraintStart_toStartOf="parent"
+                            app:layout_constraintTop_toTopOf="parent" />
+
+                        <TextView
+                            android:id="@+id/tv"
+                            android:layout_width="150dp"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="10dp"
+                            android:text="Shabana Canteen"
+                            android:textAlignment="center"
+                            android:textColor="@color/black"
+                            android:textSize="20sp"
+                            app:layout_constraintEnd_toEndOf="@+id/im1"
+                            app:layout_constraintStart_toStartOf="@+id/im1"
+                            app:layout_constraintTop_toBottomOf="@+id/im1" />
+
+                        <TextView
+                            android:id="@+id/tv1"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="10dp"
+                            android:textColor="@color/black"
+                            android:text="🙎‍♂ Provider"
+                            android:textSize="14sp"
+                            android:layout_marginLeft="10dp"
+                            app:layout_constraintStart_toStartOf="@+id/tv"
+                            app:layout_constraintTop_toBottomOf="@+id/tv" />
+
+                        <TextView
+                            android:id="@+id/tv2"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="5dp"                            android:textColor="@color/black"
+                            android:text="📍 Location"
+                            android:textSize="14sp"
+                            app:layout_constraintStart_toStartOf="@+id/tv1"
+                            app:layout_constraintTop_toBottomOf="@+id/tv1" />
+
+                        <TextView
+                            android:id="@+id/tv3"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:textColor="@color/black"
+                            android:layout_marginTop="5dp"
+                            android:text="🛒 Price"
+                            android:textSize="14sp"
+                            app:layout_constraintStart_toStartOf="@+id/tv2"
+                            app:layout_constraintTop_toBottomOf="@+id/tv2" />
+
+                    </androidx.constraintlayout.widget.ConstraintLayout>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="5dp"
+                    android:orientation="horizontal">
+
+                    <androidx.constraintlayout.widget.ConstraintLayout
+                        android:layout_width="170dp"
+                        android:layout_height="350dp"
+                        android:layout_marginLeft="25dp"
+                        android:background="@drawable/constrainbg1">
+
+                        <ImageView
+                            android:id="@+id/im2"
+                            android:layout_width="130dp"
+                            android:layout_height="130dp"
+                            android:scaleType="fitXY"
+                            android:layout_marginTop="20dp"
+                            android:src="@drawable/img13"
+                            app:layout_constraintEnd_toEndOf="parent"
+                            app:layout_constraintStart_toStartOf="parent"
+                            app:layout_constraintTop_toTopOf="parent" />
+
+                        <TextView
+                            android:id="@+id/tv4"
+                            android:layout_width="150dp"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="10dp"
+                            android:text="Chanduram Nasta Center"
+                            android:textAlignment="center"
+                            android:textColor="@color/black"
+                            android:textSize="20sp"
+                            app:layout_constraintEnd_toEndOf="@+id/im2"
+                            app:layout_constraintStart_toStartOf="@+id/im2"
+                            app:layout_constraintTop_toBottomOf="@+id/im2" />
+
+                        <TextView
+                            android:id="@+id/tv5"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="10dp"
+                            android:textColor="@color/black"
+                            android:text="🙎‍♂ Provider"
+                            android:textSize="14sp"
+                            android:layout_marginLeft="10dp"
+                            app:layout_constraintStart_toStartOf="@+id/tv4"
+                            app:layout_constraintTop_toBottomOf="@+id/tv4" />
+
+                        <TextView
+                            android:id="@+id/tv6"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="5dp"                            android:textColor="@color/black"
+                            android:text="📍 Location"
+                            android:textSize="14sp"
+                            app:layout_constraintStart_toStartOf="@+id/tv5"
+                            app:layout_constraintTop_toBottomOf="@+id/tv5" />
+
+                        <TextView
+                            android:id="@+id/tv7"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:textColor="@color/black"
+                            android:layout_marginTop="5dp"
+                            android:text="🛒 Price"
+                            android:textSize="14sp"
+                            app:layout_constraintStart_toStartOf="@+id/tv6"
+                            app:layout_constraintTop_toBottomOf="@+id/tv6" />
+
+                    </androidx.constraintlayout.widget.ConstraintLayout>
+
+<!--                    <androidx.constraintlayout.widget.ConstraintLayout-->
+<!--                        android:layout_width="185dp"-->
+<!--                        android:layout_height="350dp"-->
+<!--                        android:layout_marginTop="10dp"-->
+<!--                        android:layout_marginLeft="5dp"-->
+<!--                        android:background="@drawable/constrainbg1">-->
+
+
+<!--                        <ImageView-->
+<!--                            android:layout_width="130dp"-->
+<!--                            android:layout_height="130dp"-->
+<!--                            android:scaleType="fitXY"-->
+<!--                            android:src="@drawable/img12"-->
+<!--                            android:layout_marginTop="20dp"-->
+<!--                            app:layout_constraintEnd_toEndOf="parent"-->
+<!--                            app:layout_constraintStart_toStartOf="parent"-->
+<!--                            app:layout_constraintTop_toTopOf="parent" />-->
+
+<!--                    </androidx.constraintlayout.widget.ConstraintLayout>-->
+
+<!--                </LinearLayout>-->
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+        </ScrollView>
+
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

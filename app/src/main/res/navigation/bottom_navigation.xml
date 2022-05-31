@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/bottom_navigation"
+    app:startDestination="@id/navigation_home">
+
+    <fragment
+        android:id="@+id/navigation_home"
+        android:name="com.bhavinpatil.shareameal.ui.Home.HomeFragment"
+        android:label="Home"
+        tools:layout="@layout/fragment_home"/>
+
+    <fragment
+        android:id="@+id/navigation_free"
+        android:name="com.bhavinpatil.shareameal.ui.Free.FreeFragment"
+        android:label="Free Food"
+        tools:layout="@layout/fragment_free"/>
+
+    <fragment
+        android:id="@+id/navigation_made"
+        android:name="com.bhavinpatil.shareameal.ui.Made.MadeFragment"
+        android:label="Charged Food"
+        tools:layout="@layout/fragment_made"/>
+
+    <fragment
+        android:id="@+id/navigation_forum"
+        android:name="com.bhavinpatil.shareameal.ui.Forum.ForumFragment"
+        android:label="Forum"
+        tools:layout="@layout/fragment_forum"/>
+
+    <fragment
+        android:id="@+id/navigation_myprofile"
+        android:name="com.bhavinpatil.shareameal.ui.Myprofile.MyprofileFragment"
+        android:label="My Profile"
+        tools:layout="@layout/fragment_myprofile"/>
+
+</navigation>
